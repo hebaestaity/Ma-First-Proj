@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma First Project</title>
+<style>
+   .center1 {
+      text-align: center;
+    }
+    .center1 img {
+      display: block;
+      margin: 0 auto;
+    }
+    .center1 figcaption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    .center2 {
+      text-align: center;
+    }
+    .center2 img {
+      display: block;
+      margin: 0 auto;
+    }
+    .center2 figcaption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    .left {
+      float: left;
+      margin-right: 10px; /* Adjust the spacing between the image and other content */
+    }
+    .left img {
+      display: block;
+      margin-bottom: 10px; /* Adjust the spacing between the image and the description */
+    }
+    .left figcaption {
+      text-align: center;
+      font-style: italic;
+</style></head>
+
+<body>
+
+  <figure class="center1">
+    <img src="./Ma First Project_files/ktc-product-ssd-a400-sa400s37-960gb-3-lg.jpg" alt="Your Image">
+    <figcaption>A400 SSD 960GB.</figcaption>
+  </figure>
+
+  <figure class="center2">
+    <img src="./Ma First Project_files/Kingston-SSD-240GB-01-650x400.jpg" alt="Your Image">
+    <figcaption>A400 SSD 240GB.</figcaption>
+  </figure>
+
+  <figure class="left">
+    <img src="./Ma First Project_files/ktc-product-ssd-a400-sa400m8-240gb-3-zm-lg-650x400.jpg" alt="Your Image">
+    <figcaption>M.2 SSD 240GB.</figcaption>
+  </figure>
+       
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
